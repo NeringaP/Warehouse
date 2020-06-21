@@ -1,3 +1,5 @@
+package Warehouse;
+
 public class Item {
     private String name;
     private double price;
@@ -35,10 +37,11 @@ public class Item {
 
     @Override
     public String toString() {
-        return "Item{" +
+        return "Warehouse.Item{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 ", quantity=" + quantity +
                 '}';
     }
+
 }
